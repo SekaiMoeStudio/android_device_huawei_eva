@@ -11,13 +11,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-# Inherit from next device
-$(call inherit-product, device/huawei/next/device.mk)
+# Inherit from eva device
+$(call inherit-product, device/huawei/eva/device.mk)
 
-PRODUCT_DEVICE := next
-PRODUCT_NAME := lineage_next
+PRODUCT_DEVICE := eva
+PRODUCT_NAME := lineage_eva
 PRODUCT_BRAND := Huawei
-PRODUCT_MODEL := NXT-AL10
+PRODUCT_MODEL := EVA-DL00
 PRODUCT_MANUFACTURER := huawei
 
 PRODUCT_GMS_CLIENTID_BASE := android-huawei

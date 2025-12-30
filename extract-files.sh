@@ -34,7 +34,7 @@ fi
 
 set -e
 
-export DEVICE=next
+export DEVICE=eva
 export DEVICE_COMMON=hi3650-8-common
 export VENDOR=huawei
 export VENDOR_COMMON=${VENDOR}

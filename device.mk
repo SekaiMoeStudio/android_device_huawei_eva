@@ -23,4 +23,4 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
 # Inherit the proprietary files
-$(call inherit-product, vendor/huawei/next/next-vendor.mk)
+$(call inherit-product, vendor/huawei/eva/eva-vendor.mk)

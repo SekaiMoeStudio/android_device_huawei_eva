@@ -7,7 +7,7 @@
 # Inherit from hi3650-8-common
 include device/huawei/hi3650-8-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/huawei/next
+DEVICE_PATH := device/huawei/eva
 
 # Display
 TARGET_SCREEN_DENSITY := 440
@@ -16,4 +16,4 @@ TARGET_SCREEN_DENSITY := 440
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
 # Inherit the proprietary files
-include vendor/huawei/next/BoardConfigVendor.mk
+include vendor/huawei/eva/BoardConfigVendor.mk

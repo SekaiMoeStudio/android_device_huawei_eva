@@ -1,8 +1,8 @@
-# Android device tree for Huawei Mate 8 (next)
+# Android device tree for Huawei P9 (eva)
 
 ```
 #
-# Copyright (C) 2023 The LineageOS Project
+# Copyright (C) 2025 The LineageOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
